@@ -2,20 +2,52 @@ body{
     background: #BDBDBD;
 }
 
-.skyline {
-    width: 100%;
+.tagcontainer {
+    position:relative;
+    width:100%;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
 }
 
-.toptagcenter {
+/* First tag position */
+.firstTag {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 18px;
     background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
-.tagfont {
+/* Second Tag position */
+.secondTag {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Navbar font color */
+.fontgray {
+    color:lightgray;
+}
+
+.font60 {
+    font-size: 500%;
     text-align: center;
-    font-size: xx-large;
+    padding-bottom: 0;
+    margin-bottom: 0; 
+}
+
+.font30 {
+    font-size: 250%;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0; 
 }
